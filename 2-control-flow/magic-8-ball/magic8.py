@@ -3,6 +3,11 @@ import random
 name = "Joe"
 question = "Will I win the lottery?"
 answer = ""
+# check for empty string
+if name == '':
+  print('Question: ' + question)
+else:
+  print(name + question)
 
 random_number = random.randint(1, 9)
 # print(random_number)
